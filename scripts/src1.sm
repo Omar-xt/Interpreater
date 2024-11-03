@@ -1,0 +1,7 @@
+a = 10
+
+fn foo(num) {
+    print(num)
+}
+
+foo(10)
