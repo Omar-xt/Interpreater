@@ -1,0 +1,44 @@
+
+a = 10
+b = 20
+c = a * b
+
+if a == 10 {
+    print("a * b :", c)
+}
+
+for i in 1..10 {
+    print(i, end=" ")
+}
+print("-> for ends hare")
+
+list = [1,2,"foo"]
+for item in list {
+    print(item, end=" ")
+}
+print("-> list ends hare")
+
+dict = @dict{ "a": 10, "b": 20, "c": 30 }
+print(dict)
+
+fn foo(a,b,c="default") {
+    print(a, b, c)
+}
+print("#fn call")
+foo("foo", "bar")
+
+struct Baz {
+    fn init(self, name="Baz", age=30) {
+        self.name = name
+        self.age = age
+    }
+
+    fn print(self) {
+        print(self.name, "is" ,self.age, "years old")
+    }
+}
+baz = Baz()
+baz.init(age=20)
+baz.print()
+
+

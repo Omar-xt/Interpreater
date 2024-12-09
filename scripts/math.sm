@@ -1,0 +1,4 @@
+
+fn sum(self, a, b) {
+    return a + b
+}

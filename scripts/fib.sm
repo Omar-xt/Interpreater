@@ -1,0 +1,17 @@
+fn fib(n1, n2, next, start, n) {
+    print("fib:", start - 1, next)
+
+    if start == n {
+        return 10
+    }
+
+    start = start + 1
+
+    n1 = n2
+    n2 = next
+    next = n1 + n2
+
+    fib(n1, n2, next, start, n)
+}
+
+fib(0, 1, 1, 1, 10)

@@ -1,0 +1,10 @@
+
+a = @DynLib("zig-out/lib/libabc.so")
+
+print(a.sum(10, 20))
+
+f = a.fsum
+f.ret_type = 0.0
+print(f(10.0, 20.5))
+
+

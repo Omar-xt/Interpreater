@@ -1,0 +1,45 @@
+
+struct Card {
+    fn init(self) {
+        self.name = "card"
+    }
+
+    fn print(self) {
+        print(self.name)
+    }
+
+    fn man(self) {
+        return self
+    }
+
+    fn gg(self, n=10, m=20, o=30) {
+        print(m, n, o)
+    }
+
+    fn ran(self, args, l, dd=10) {
+        a = [1,2,3,4,5,6,7,8,9]
+
+        for i in a {
+            print(i)
+        }
+
+       print(l)
+       print(args)
+
+       for i in 0..3 {
+            print(args)   
+       }
+
+       d = 10
+
+       if 10 == d {
+            print(l)
+       }
+
+     
+
+       print(dd)
+
+        
+    }
+}

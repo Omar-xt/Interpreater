@@ -1,0 +1,8 @@
+
+struct Vp {
+    fn init(self) {
+        self.func = -1
+        self.ret_type = -1
+    }
+}
+
