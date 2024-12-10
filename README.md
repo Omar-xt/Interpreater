@@ -10,12 +10,14 @@ Jit compilation feature os on devlopment.
 ![d1](img/5.png)
 
 # FFI
-![d1](img/1.png)
 libabc
 ![d1](img/2.png)
+![d1](img/1.png)
+![d1](img/3.png)
 
 # Module import
 ![d1](img/8.png)
+<br />
 ![d1](img/9.png)
 
 
